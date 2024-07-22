@@ -125,8 +125,8 @@ function fetchDataAndCreateChart(siteId) {
   const startDate = new Date(endDate.getTime() - 7 * 24 * 60 * 60 * 1000);
   const formattedStartDate = formatDateTime(startDate);
   const formattedEndDate = formatDateTime(endDate);
+  const user = "USUARIO_API@EJEMPLO.COM.AR";
 
-  const user = "fernandez.mauro@inta.gob.ar";
 
   const apiUrl = `https://apis.fdx-ingenieria.com.ar/api_new?user=${user}&site_id=${siteId}&query=filter_site&date=${formattedStartDate}@${formattedEndDate}`;
 
