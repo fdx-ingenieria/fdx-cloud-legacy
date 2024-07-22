@@ -206,6 +206,8 @@ fetchDataAndCreateChart(defaultSiteId);
 
 ```
 ## USO
-Clona el repositorio y abre el archivo index.html en tu navegador web.
-Selecciona un sitio del menú desplegable para ver los datos correspondientes en el gráfico.
+- Clona el repositorio.
+- Reemplazar por un usuario valido "USUARIO_API@EJEMPLO.COM.AR";
+- Abre el archivo index.html en tu navegador web.
+- Selecciona un sitio del menú desplegable para ver los datos correspondientes en el gráfico. dbera conocer los id de los sitios.
 
