@@ -41,7 +41,9 @@
       const formattedStartDate = formatDateTime(startDate);
       const formattedEndDate = formatDateTime(endDate);
 
-      const apiUrl = `https://apis.fdx-ingenieria.com.ar/api_new?user=fernandez.mauro@inta.gob.ar&site_id=${siteId}&query=filter_site&date=${formattedStartDate}@${formattedEndDate}`;
+      const user = "fernandez.mauro@inta.gob.ar";
+
+      const apiUrl = `https://apis.fdx-ingenieria.com.ar/api_new?user=${user1}&site_id=${siteId}&query=filter_site&date=${formattedStartDate}@${formattedEndDate}`;
 
       fetch(apiUrl)
         .then(response => response.json())
